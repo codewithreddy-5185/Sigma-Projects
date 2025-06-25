@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sigma Projects - Project Ideas</title>
+  <link rel="icon" type="image/png" href="https://img.icons8.com/color/96/artificial-intelligence.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary-gradient: linear-gradient(120deg, #232526 0%, #414345 100%);
+      --accent-gradient: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+      --card-bg: rgba(30,30,40,0.85);
+      --shadow: 0 4px 24px rgba(0,0,0,0.10);
+    }
+    body {
+      margin: 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: var(--primary-gradient);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      /* Hide scrollbar for all browsers */
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none;  /* IE and Edge */
+    }
+    body::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
+    }
+    header {
+      width: 100%;
+      padding: 1.5rem 1rem 1rem 1rem;
+      background: var(--accent-gradient);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .company-name {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      background: var(--primary-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .nav-link {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      background: var(--primary-gradient);
+      padding: 0.5rem 1.2rem;
+      border-radius: 24px;
+      transition: background 0.2s, color 0.2s;
+    }
+    .nav-link:hover {
+      background: #fff;
+      color: #185a9d;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem 2rem 1rem;
+      width: 100%;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      text-align: center;
+      color: #fff;
+    }
+    .projects-list {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .project-card {
+      background: var(--card-bg);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      padding: 1.5rem 1.2rem;
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: 500;
+      transition: transform 0.2s, box-shadow 0.2s;
+      min-height: 90px;
+    }
+    .project-card:hover {
+      transform: translateY(-4px) scale(1.03);
+      box-shadow: 0 8px 32px rgba(67,206,162,0.18);
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.3rem;
+      }
+      .company-name {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <header class="d-flex align-items-center justify-content-between px-3 py-3" style="background: var(--accent-gradient); box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <div class="company-name">Sigma Projects</div>
+    <a href="index.html" class="nav-link">Home</a>
+  </header>
+  <main class="flex-grow-1 d-flex flex-column align-items-center">
+    <h1>Explore Our Project Ideas</h1>
+    <div class="projects-list row g-4 w-100 justify-content-center">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Based Virtual Health Assistant for Early Disease Risk Detection</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Machine Learning System to Predict Student Academic Performance Trends</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning-Powered Real-Time Road Accident Detection and Alert System</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI Chatbot for Personalized Career Guidance Based on User Skills</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Predictive AI Model for Smart Water Usage in Urban Households</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning for Detecting Emotions from Human Facial Expressions in Video</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Machine Learning-Based Electricity Consumption Forecasting for Smart Grids</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI Model for Automatic Detection of Illegal Construction Using Satellite Imagery</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Multi-Modal Deep Learning for Depression Detection from Text and Audio</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Based Resume Shortlisting Tool Using Semantic Skill Matching</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">ML-Powered Food Quality Detection Using Image and Odor Data</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning Framework for Lung Cancer Detection from Chest X-Rays</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Driven Personalized E-Learning System Based on Student Behavior Patterns</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Machine Learning-Based Demand Forecasting for Local Grocery Inventory Management</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Powered System for Predicting Forest Fire Spread and Impact</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning System for Real-Time Sign Language to Text Conversion</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI Model to Predict Flight Delays Based on Historical Data</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Smart Traffic Light Controller Using Reinforcement Learning and Live Camera Feed</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI Tool for Analyzing Student Concentration Levels During Online Classes</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Neural Network for Plant Disease Detection from Leaf Images</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Predictive Machine Learning Tool for Online Retail Product Recommendations</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Based Online Loan Approval and Creditworthiness Scoring System</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning-Based Number Plate Recognition with OCR and Edge Detection</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Intelligent System to Detect Harassment or Abuse in Social Media Comments</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Powered Virtual Assistant for Library Book Management and Student Queries</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning Framework for Recognizing Emotions in Customer Voice Feedback</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Based Intrusion Detection System for Securing Cloud Networks</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Machine Learning-Powered Personalized Workout and Diet Recommendation System</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Based Interview Performance Evaluation Using Voice and Facial Analysis</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning-Powered OCR System for Handwritten Document Digitization</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI Model to Classify Legal Case Types from Court Judgments</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI Tool for Predicting Water Pollution Levels Based on Environmental Data</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">ML-Based Weather Forecasting System Using Multi-Source Meteorological Datasets</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Powered Adaptive Learning Platform Based on Knowledge Gap Identification</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning-Based Real-Time Language Translator Using Audio and Text Input</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Powered Recruitment System with Bias-Free Resume and Skill Filtering</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Powered Crime Hotspot Prediction and Visualization System for Law Enforcement</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI Tool for Diagnosing Mental Health Conditions from User-Entered Text</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning Model for Detecting Diabetic Retinopathy from Retina Scans</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Based Real-Time Emotion Detection System from Group Video Meetings</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning-Powered Wildlife Species Recognition from Camera Trap Footage</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Predictive ML Tool for Vehicle Insurance Risk Scoring and Fraud Detection</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI Chatbot for Predicting Legal Outcomes Based on Case Summaries</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Based Email Classifier to Detect Phishing and Malicious Content</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning-Based Tool for Tracking Eye Movement in Real-Time</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Machine Learning System for Anomaly Detection in Bank Transactions</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Driven Crop Disease Diagnosis Using Satellite and Ground Sensor Data</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Powered Personalized News Aggregator Based on Reading Habits</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI Tool for Early Prediction of Alzheimer's Disease Using MRI</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning Model for Art Style Transfer in Real-Time Video</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Driven Smart Waste Management System Using Object Detection Cameras</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Machine Learning Model for Predicting Dropout Risk in Schools</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning-Based Virtual Makeup Try-On System Using Facial Filters</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Powered Real-Time Public Sentiment Analysis Dashboard from News and Social Media</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Based Student Attendance System Using Gait Recognition and Face Tracking</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Machine Learning System for Optimizing Hospital Bed Allocation in Emergency</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI Tool for Auto-Grading Programming Assignments Using Syntax Trees</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">Deep Learning Model for Predicting Earthquake Damage Based on Historical Data</div></div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="project-card">AI-Powered Lawyer Recommendation System Based on Case Type and Expertise</div></div>
+    <div class="projects-list">
+      <div class="project-card">AI-Based Virtual Health Assistant for Early Disease Risk Detection</div>
+      <div class="project-card">Machine Learning System to Predict Student Academic Performance Trends</div>
+      <div class="project-card">Deep Learning-Powered Real-Time Road Accident Detection and Alert System</div>
+      <div class="project-card">AI Chatbot for Personalized Career Guidance Based on User Skills</div>
+      <div class="project-card">Predictive AI Model for Smart Water Usage in Urban Households</div>
+      <div class="project-card">Deep Learning for Detecting Emotions from Human Facial Expressions in Video</div>
+      <div class="project-card">Machine Learning-Based Electricity Consumption Forecasting for Smart Grids</div>
+      <div class="project-card">AI Model for Automatic Detection of Illegal Construction Using Satellite Imagery</div>
+      <div class="project-card">Multi-Modal Deep Learning for Depression Detection from Text and Audio</div>
+      <div class="project-card">AI-Based Resume Shortlisting Tool Using Semantic Skill Matching</div>
+      <div class="project-card">ML-Powered Food Quality Detection Using Image and Odor Data</div>
+      <div class="project-card">Deep Learning Framework for Lung Cancer Detection from Chest X-Rays</div>
+      <div class="project-card">AI-Driven Personalized E-Learning System Based on Student Behavior Patterns</div>
+      <div class="project-card">Machine Learning-Based Demand Forecasting for Local Grocery Inventory Management</div>
+      <div class="project-card">AI-Powered System for Predicting Forest Fire Spread and Impact</div>
+      <div class="project-card">Deep Learning System for Real-Time Sign Language to Text Conversion</div>
+      <div class="project-card">AI Model to Predict Flight Delays Based on Historical Data</div>
+      <div class="project-card">Smart Traffic Light Controller Using Reinforcement Learning and Live Camera Feed</div>
+      <div class="project-card">AI Tool for Analyzing Student Concentration Levels During Online Classes</div>
+      <div class="project-card">Deep Neural Network for Plant Disease Detection from Leaf Images</div>
+      <div class="project-card">Predictive Machine Learning Tool for Online Retail Product Recommendations</div>
+      <div class="project-card">AI-Based Online Loan Approval and Creditworthiness Scoring System</div>
+      <div class="project-card">Deep Learning-Based Number Plate Recognition with OCR and Edge Detection</div>
+      <div class="project-card">Intelligent System to Detect Harassment or Abuse in Social Media Comments</div>
+      <div class="project-card">AI-Powered Virtual Assistant for Library Book Management and Student Queries</div>
+      <div class="project-card">Deep Learning Framework for Recognizing Emotions in Customer Voice Feedback</div>
+      <div class="project-card">AI-Based Intrusion Detection System for Securing Cloud Networks</div>
+      <div class="project-card">Machine Learning-Powered Personalized Workout and Diet Recommendation System</div>
+      <div class="project-card">AI-Based Interview Performance Evaluation Using Voice and Facial Analysis</div>
+      <div class="project-card">Deep Learning-Powered OCR System for Handwritten Document Digitization</div>
+      <div class="project-card">AI Model to Classify Legal Case Types from Court Judgments</div>
+      <div class="project-card">AI Tool for Predicting Water Pollution Levels Based on Environmental Data</div>
+      <div class="project-card">ML-Based Weather Forecasting System Using Multi-Source Meteorological Datasets</div>
+      <div class="project-card">AI-Powered Adaptive Learning Platform Based on Knowledge Gap Identification</div>
+      <div class="project-card">Deep Learning-Based Real-Time Language Translator Using Audio and Text Input</div>
+      <div class="project-card">AI-Powered Recruitment System with Bias-Free Resume and Skill Filtering</div>
+      <div class="project-card">AI-Powered Crime Hotspot Prediction and Visualization System for Law Enforcement</div>
+      <div class="project-card">AI Tool for Diagnosing Mental Health Conditions from User-Entered Text</div>
+      <div class="project-card">Deep Learning Model for Detecting Diabetic Retinopathy from Retina Scans</div>
+      <div class="project-card">AI-Based Real-Time Emotion Detection System from Group Video Meetings</div>
+      <div class="project-card">Deep Learning-Powered Wildlife Species Recognition from Camera Trap Footage</div>
+      <div class="project-card">Predictive ML Tool for Vehicle Insurance Risk Scoring and Fraud Detection</div>
+      <div class="project-card">AI Chatbot for Predicting Legal Outcomes Based on Case Summaries</div>
+      <div class="project-card">AI-Based Email Classifier to Detect Phishing and Malicious Content</div>
+      <div class="project-card">Deep Learning-Based Tool for Tracking Eye Movement in Real-Time</div>
+      <div class="project-card">Machine Learning System for Anomaly Detection in Bank Transactions</div>
+      <div class="project-card">AI-Driven Crop Disease Diagnosis Using Satellite and Ground Sensor Data</div>
+      <div class="project-card">AI-Powered Personalized News Aggregator Based on Reading Habits</div>
+      <div class="project-card">AI Tool for Early Prediction of Alzheimer's Disease Using MRI</div>
+      <div class="project-card">Deep Learning Model for Art Style Transfer in Real-Time Video</div>
+      <div class="project-card">AI-Driven Smart Waste Management System Using Object Detection Cameras</div>
+      <div class="project-card">Machine Learning Model for Predicting Dropout Risk in Schools</div>
+      <div class="project-card">Deep Learning-Based Virtual Makeup Try-On System Using Facial Filters</div>
+      <div class="project-card">AI-Powered Real-Time Public Sentiment Analysis Dashboard from News and Social Media</div>
+      <div class="project-card">AI-Based Student Attendance System Using Gait Recognition and Face Tracking</div>
+      <div class="project-card">Machine Learning System for Optimizing Hospital Bed Allocation in Emergency</div>
+      <div class="project-card">AI Tool for Auto-Grading Programming Assignments Using Syntax Trees</div>
+      <div class="project-card">Deep Learning Model for Predicting Earthquake Damage Based on Historical Data</div>
+      <div class="project-card">AI-Powered Lawyer Recommendation System Based on Case Type and Expertise</div>
+      <div class="project-card">Deep Learning-Powered Driver Drowsiness Detection and Alert Mechanism</div>
+      <div class="project-card">AI-Powered Dashboard for Predicting Employee Productivity and Burnout Risks</div>
+      <div class="project-card">Machine Learning Tool for Real-Time Spam Comment Detection on Websites</div>
+      <div class="project-card">AI System for Real-Time Product Defect Detection in Manufacturing Lines</div>
+      <div class="project-card">Deep Learning-Powered Document Classifier for Legal or Medical Fields</div>
+      <div class="project-card">AI Model for Predicting and Visualizing Stock Market Sector Movements</div>
+      <div class="project-card">Machine Learning Tool for Detecting Patterns in Academic Plagiarism</div>
+      <div class="project-card">AI Chatbot for Answering College Admission FAQs with Predictive Ranking</div>
+      <div class="project-card">Machine Learning Model for Predicting Traffic Congestion in Urban Cities</div>
+      <div class="project-card">AI-Based System for Verifying COVID-19 Symptoms from User Input and Voice</div>
+      <div class="project-card">Deep Learning-Based Age and Gender Estimator from Facial Images</div>
+      <div class="project-card">AI-Powered Digital Assistant for Visually Impaired Navigation Indoors</div>
+      <div class="project-card">AI-Driven Legal Document Summarizer Using NLP and Transformer Models</div>
+      <div class="project-card">Deep Learning-Powered System for Detecting Cracks in Building Structures</div>
+      <div class="project-card">AI Tool for Auto-Detecting Resume Formatting and Grammar Mistakes</div>
+      <div class="project-card">Machine Learning System to Predict Online Course Dropout Probability</div>
+      <div class="project-card">AI-Based Smart Home Appliance Controller Using Voice and Gesture Recognition</div>
+      <div class="project-card">Deep Learning System to Detect Suicide Risk from User Social Media Posts</div>
+      <div class="project-card">AI Tool for Predicting Success of Crowdfunding Campaigns</div>
+      <div class="project-card">AI-Based Traffic Violation Detection Using License Plate and Gesture Analysis</div>
+      <div class="project-card">Deep Learning Model to Extract Topics from Scientific Research Papers</div>
+      <div class="project-card">Machine Learning Model for Detecting Fake Job Offers Using Text Analysis</div>
+      <div class="project-card">AI-Powered Virtual Doctor Assistant Using Conversational NLP and Knowledge Base</div>
+      <div class="project-card">Machine Learning Model for Real-Time Fraud Detection in Online Shopping</div>
+      <div class="project-card">Deep Learning-Powered Product Tagging and Categorization for E-Commerce Sites</div>
+      <div class="project-card">AI-Based Reviewer Credibility Detection System for Online Platforms</div>
+      <div class="project-card">Machine Learning System for Dynamic Room Pricing in Hotels</div>
+      <div class="project-card">AI Tool for Predicting Environmental Hazards from Satellite Data Streams</div>
+      <div class="project-card">AI-Based Smart Resume Builder with Auto Suggestions and ATS Optimization</div>
+      <div class="project-card">AI-Driven Predictive Policing Tool Using Crime and Social Indicators</div>
+      <div class="project-card">Deep Learning Model for Estimating Crowd Count from Aerial Images</div>
+      <div class="project-card">AI-Powered Dashboard for Political Sentiment Analysis Using Election Tweets</div>
+      <div class="project-card">Deep Learning System to Recommend Music Based on Mood from Text Input</div>
+      <div class="project-card">AI-Based Paraphrasing Tool for Academic Writing Enhancement</div>
+      <div class="project-card">Deep Learning Model to Detect Child Labor in Social Media Videos</div>
+      <div class="project-card">Machine Learning-Powered Custom Diet Plan Generator Based on Medical History</div>
+      <div class="project-card">AI Tool for Real-Time Object Counting in Retail Stores via CCTV</div>
+      <div class="project-card">Deep Learning Model to Convert Hand Gestures into Keyboard Inputs</div>
+      <div class="project-card">AI-Driven Legal Document Similarity Checker for Contract Review Automation</div>
+      <div class="project-card">Machine Learning-Based Student Mental Health Monitoring Using Survey Data</div>
+      <div class="project-card">AI Tool for Predicting Outcomes of Football Matches Using Historical Stats</div>
+    </div>
+  </main>
+</body>
+</html> 
